@@ -1,0 +1,30 @@
+# Pinned for Python 3.13; resolved to be mutually compatible.
+
+pandas==2.3.3
+numpy==2.2.6
+
+# Semantic encoding, pulls models from HuggingFace Hub
+sentence-transformers==5.1.2
+
+# 2.7.1 is the stable cp313 build; covers MPS/CUDA/CPU
+torch==2.7.1
+
+scikit-learn==1.6.1
+
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.3.0
+
+# Pulls in numba + llvmlite
+umap-learn==0.5.12
+
+# Step 3 skip-gram training; 4.4.0 is first to drop the numpy<2.0 pin, needed for numpy 2.2.6 above
+gensim==4.4.0
+
+# Step 2a Kneedle threshold method
+kneed==0.8.5
+
+jupyterlab==4.3.8
+notebook==7.3.2
+
+ollama

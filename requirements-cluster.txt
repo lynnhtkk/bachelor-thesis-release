@@ -1,0 +1,8 @@
+# Cluster environment for the run_*_cluster.py scripts. numpy/kneed differ from
+# requirements.txt (older, cluster-preinstalled); doesn't affect the maths.
+numpy==2.0.2
+pandas==2.3.3
+tqdm==4.67.1
+scipy==1.13.1
+kneed==0.8.6
+gensim
